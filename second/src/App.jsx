@@ -10,9 +10,8 @@ function App() {
   
   const changeGame = () => {
        setIsGamestart((prev)=>!prev)
-  }
+  } 
   
-   
   return (
     <>
       {isGamestart?<Gameplay/> :  <Startgame toggle={changeGame} />}
